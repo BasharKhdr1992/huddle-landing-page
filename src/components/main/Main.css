@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+}
+
+.m-illustration {
+  width: 57.5%;
+}
+.m-description {
+  width: 40%;
+}
+
+.m-illustration img {
+  width: 100%;
+  height: auto;
+}
+
+.m-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-description h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.m-description p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.7rem;
+  font-size: 1.11rem;
+}
+
+.m-description h1,
+.m-description p {
+  color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .m-illustration,
+  .m-description {
+    width: 100%;
+  }
+
+  .m-description {
+    align-items: center;
+  }
+
+  .m-description h1,
+  .m-description p {
+    text-align: center;
+  }
+}

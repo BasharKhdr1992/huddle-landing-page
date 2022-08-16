@@ -1,7 +1,7 @@
 .main {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 .m-illustration {
@@ -13,7 +13,7 @@
 
 .m-illustration img {
   width: 100%;
-  height: 28.5rem;
+  height: 28rem;
 }
 
 .m-description {
